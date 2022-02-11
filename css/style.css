@@ -1,8 +1,28 @@
-.test-link {
-  color: aqua;
+body {
+  background-color: #fff;
+  color: #000000;
+}
+.logo {
+  color: #233348;
+}
+.list {
+  list-style: none;
+}
+.site-nav .link {
+  color: rgb(0, 0, 0, 0.5);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #000000;
+}
+.hero-title,
+.features-title {
+  color: #000000;
 }
 
-.test-link:hover,
-.test-link:focus {
-  color: rgb(300, 0, 0);
-}
+/* основной цвет color: #000000
+/* вторичный цвет текста color: #7D7987; 
+/* цвет лого текст #233348
+/* цвет навигации #1F1534;
+/* #458FF6; акцент
+ */
