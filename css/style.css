@@ -1,25 +1,57 @@
+:root {
+  --primary-text-color: rgb(0, 0, 0, 0.8);
+  --title-text-color: #000000;
+  --accent-color: #458ff6;
+  --accent-link: rgb(0, 0, 0);
+  --link: rgb(0, 0, 0, 0.25);
+}
+* {
+  outline: none;
+}
 body {
   background-color: #fff;
-  color: #000000;
+  color: var(--primary-text-color);
 }
 .logo {
   color: #233348;
+  color: var(--title-text-color);
 }
 .list {
   list-style: none;
 }
+.site-nav {
+  border-style: none;
+}
 .site-nav .link {
-  color: rgb(0, 0, 0, 0.5);
+  color: var(--link);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #000000;
+  color: var(--accent-link);
 }
-.hero-title,
-.features-title {
-  color: #000000;
+.section-title {
+  color: var(--title-text-color);
 }
-
+.services-link {
+  color: var(--accent-color);
+}
+.link-btn {
+  display: inline-block;
+  background-color: #fff;
+  border: 1.4px solid var(--accent-color);
+  color: var(--accent-color);
+  border-radius: 55px;
+  font-size: 18px;
+  text-align: center;
+  padding: 0px 20px;
+  text-decoration: none;
+  font-family: Verdana;
+  line-height: 48px;
+}
+.link-btn:hover {
+  color: #fff;
+  background-color: var(--accent-color);
+}
 /* основной цвет color: #000000
 /* вторичный цвет текста color: #7D7987; 
 /* цвет лого текст #233348
