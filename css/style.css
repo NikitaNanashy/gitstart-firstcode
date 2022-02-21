@@ -20,6 +20,8 @@ body {
   list-style: none;
 }
 .site-nav {
+  display: flex;
+  flex-direction: rowч;
   border-style: none;
 }
 .site-nav .link {
